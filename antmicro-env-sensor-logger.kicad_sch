@@ -1,0 +1,22 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 8eef0f5e-ea92-4309-8bfa-5d89a1db9ae8)
+
+  (paper "A3")
+
+  (title_block
+    (title "Server Case Temperature/Humidity Sensor & Logger")
+    (date "2022-11-23")
+    (rev "Preliminary")
+    (company "Antmicro Ltd")
+    (comment 1 "www.antmicro.com")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
