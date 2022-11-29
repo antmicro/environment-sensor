@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "antmicro-env-sensor-logger.kicad_pro",
+    "filename": "nuc-compute-cluster-environment-sensor.kicad_pro",
     "version": 1
   },
   "net_settings": {
