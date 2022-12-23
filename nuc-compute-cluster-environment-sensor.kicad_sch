@@ -4056,6 +4056,10 @@
     (uuid ff2914c8-294c-4509-881f-5d5b0b2da4c3)
   )
 
+  (text "3V3 LDO,\n150mA max \noutput current\n~500mA limit" (at 191.77 63.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 000fff95-103c-4d90-bfce-75c2a4da4218)
+  )
   (text "SDO pin sets \nI2C address." (at 347.98 176.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6c4a0463-4e6c-4031-8289-ad18c62cf414)
