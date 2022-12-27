@@ -4327,7 +4327,8 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 6a542d72-af47-47c1-ae5a-731b3fecff71)
   )
-  (text "SDO pin sets \nI2C address." (at 347.98 176.53 0)
+  (text "SDO pin sets \nBME280's I2C address.\n\nSDO		| I2C addr.\n======+=======\nHigh	| 0x77\nLow		| 0x76"
+    (at 341.63 186.69 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6c4a0463-4e6c-4031-8289-ad18c62cf414)
   )
@@ -4355,6 +4356,10 @@
   (text "SENSOR ISLAND" (at 325.12 96.52 0)
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid c71ad00e-fd32-4511-a95a-d3017e303be8)
+  )
+  (text "SHT45's I2C \ndevice address: 0x44" (at 372.11 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ca7708cd-507d-4a9f-b35c-facf535386db)
   )
   (text "Write protect is \ninternally pulled down \n(Write Enabled)"
     (at 290.83 81.28 0)
