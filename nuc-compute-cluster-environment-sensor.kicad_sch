@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "Server Case Temperature/Humidity Sensor & Logger")
-    (date "2022-11-23")
-    (rev "Preliminary")
+    (title "Server Case Temperature/Humidity Sensor")
+    (date "2022-12-27")
+    (rev "1.0.0")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
   )
