@@ -2413,7 +2413,6 @@
     )
   )
 
-
   (junction (at 295.91 91.44) (diameter 0) (color 0 0 0 0)
     (uuid 04220738-30f3-4fea-98b4-205a1b909207)
   )
@@ -4418,11 +4417,6 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid b3cb26b3-e5b8-4122-b4ad-abb7888297ef)
   )
-  (text "[T] As Analog is not used, no need to decouple VDDA and VREF so much\n"
-    (at 256.54 90.17 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b79e7950-a902-4711-abaf-17c24b75fe2e)
-  )
   (text "SENSOR ISLAND" (at 325.12 96.52 0)
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid c71ad00e-fd32-4511-a95a-d3017e303be8)
@@ -4443,10 +4437,6 @@
   (text "Fujitsu FeRAM I2C Memory" (at 254 20.32 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid e05adc81-11f8-4ed7-a108-641a9c091d89)
-  )
-  (text "[T] 3 x 100nF can be removed\n" (at 152.4 106.68 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e1775871-abee-4bca-8512-7de06bac6e18)
   )
 
   (label "VBUS" (at 58.42 38.1 0)
