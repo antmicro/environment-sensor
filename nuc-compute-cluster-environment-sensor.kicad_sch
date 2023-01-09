@@ -5117,24 +5117,6 @@
     (pin "1" (uuid 03855109-deff-4227-ae86-7808b8c137d3))
   )
 
-  (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_2.7mm_M2.5_pad") (at 292.1 247.65 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 08384ce6-94c3-4d11-b3bb-05729d31a850)
-    (property "Reference" "MP3" (id 0) (at 297.18 256.54 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "PCB_Mount_Hole_2.7mm_M2.5_pad" (id 1) (at 297.18 254 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "antmicro-footprints:mounting-hole-2.7mm-M2.5-Pad" (id 2) (at 274.32 227.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 271.78 223.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 13ca2cef-5f85-4ccf-a0aa-4bf8ae74a5df))
-  )
-
   (symbol (lib_id "power:GND") (at 74.93 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0cd321da-3383-489d-a34a-eb70f5f4f150)
@@ -10049,9 +10031,6 @@
     )
     (path "/35a1b815-aa17-47b3-a8d1-678e0097ce04"
       (reference "MP2") (unit 1) (value "PCB_Mount_Hole_2.7mm_M2.5_pad") (footprint "antmicro-footprints:mounting-hole-2.7mm-M2.5-Pad")
-    )
-    (path "/08384ce6-94c3-4d11-b3bb-05729d31a850"
-      (reference "MP3") (unit 1) (value "PCB_Mount_Hole_2.7mm_M2.5_pad") (footprint "antmicro-footprints:mounting-hole-2.7mm-M2.5-Pad")
     )
     (path "/5c281eda-9560-4be6-a6db-b4ca3369d098"
       (reference "MP4") (unit 1) (value "PCB_Mount_Hole_2.7mm_M2.5_pad") (footprint "antmicro-footprints:mounting-hole-2.7mm-M2.5-Pad")
