@@ -370,7 +370,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.196,
+        "clearance": 0.15,
         "diff_pair_gap": 0.196,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.182,
@@ -391,7 +391,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.75,
+        "clearance": 0.15,
         "diff_pair_gap": 0.75,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
@@ -424,9 +424,7 @@
           "/FTDI_VPLL",
           "/VBUS",
           "GND",
-          "GNDREF",
-          "Net-(C17-Pad1)",
-          "Net-(C32-Pad2)"
+          "GNDREF"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
