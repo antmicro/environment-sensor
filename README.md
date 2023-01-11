@@ -12,7 +12,7 @@ These sensors are placed on separated island in PCB corner, which can be easily 
 The design files were preapared in KiCad 6.x.
 
 ## Key features
-
+* 50.00 mm X 26.50 mm PCB SIZE
 * USB-C Connector for data and power
 * STM32G474CET6 host MCU
 * 128kB external FRAM 
