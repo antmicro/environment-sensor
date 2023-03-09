@@ -89,7 +89,11 @@ The remaining files are stored in the following directories:
 
 * `img` - contains graphics for this README
 
+## Board diagram
+
+![Diagram](doc/nuc-compute-cluster-environment-sensor-diagram.png)
+
+
 ## Licensing
 
 This project is published under the [Apache-2.0](LICENSE) license.
-
