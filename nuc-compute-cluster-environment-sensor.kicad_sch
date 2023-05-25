@@ -1208,7 +1208,7 @@
           (name "DDBUS0" (effects (font (size 1.27 1.27))))
           (number "42" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 0 -6.35 0) (length 2.54)
+        (pin power_out line (at 0 -6.35 0) (length 2.54)
           (name "V_{REGOUT}" (effects (font (size 1.27 1.27))))
           (number "43" (effects (font (size 1.27 1.27))))
         )
