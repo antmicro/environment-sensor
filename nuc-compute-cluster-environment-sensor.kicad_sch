@@ -1415,7 +1415,7 @@
       (property "Value" "MB85RC1MTPNF-G" (id 1) (at 35.56 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "antmicro-footprints:SOP-8_3.9x5.05mm_P1.27mm" (id 2) (at 35.56 -10.16 0)
+      (property "Footprint" "antmicro-footprints:SOIC-8-1EP_3.9x4.9x1.75mm_P1.27mm" (id 2) (at 35.56 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.fujitsu.com/jp/group/fsm/en/documents/products/feram/lineup/MB85RC1MT-DS501-00027-5v0-E.pdf" (id 3) (at 35.56 -12.7 0)
@@ -9799,7 +9799,7 @@
     (property "Value" "MB85RC1MTPNF-G" (id 1) (at 279.4 43.18 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "antmicro-footprints:SOP-8_3.9x5.05mm_P1.27mm" (id 2) (at 284.48 33.02 0)
+    (property "Footprint" "antmicro-footprints:SOIC-8-1EP_3.9x4.9x1.75mm_P1.27mm" (id 2) (at 284.48 33.02 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "https://www.fujitsu.com/jp/group/fsm/en/documents/products/feram/lineup/MB85RC1MT-DS501-00027-5v0-E.pdf" (id 3) (at 284.48 30.48 0)
@@ -11940,7 +11940,7 @@
       (reference "U3") (unit 1) (value "STM32G474CET6") (footprint "antmicro-footprints:LQFP-48_B7x7mm_P0.5mm_0.20mmPadPadClearance_Pad0.30x1.20mm")
     )
     (path "/c5c012ff-1a2c-4ebc-9da4-4310c7a4116c"
-      (reference "U4") (unit 1) (value "MB85RC1MTPNF-G") (footprint "antmicro-footprints:SOP-8_3.9x5.05mm_P1.27mm")
+      (reference "U4") (unit 1) (value "MB85RC1MTPNF-G") (footprint "antmicro-footprints:SOIC-8-1EP_3.9x4.9x1.75mm_P1.27mm")
     )
     (path "/d6c64b1a-d633-4893-8be9-785857ad3bcd"
       (reference "U5") (unit 1) (value "SHT45") (footprint "antmicro-footprints:Sensirion_DFN-4-1.5x1.5x0.5mm_P0.8mm")
