@@ -8485,7 +8485,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Current" "1A" (id 10) (at 229.87 177.8 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (effects (font (size 1.27 1.27) (thickness 0.15)) hide)
     )
     (pin "1" (uuid 705240fd-a423-4e2b-ad5d-61b9d8799824))
     (pin "2" (uuid 3b4fffbc-25ed-43eb-bf7e-885430cbc861))
