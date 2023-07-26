@@ -7,7 +7,7 @@
   (title_block
     (title "Environmental Sensor")
     (date "2023-06-07")
-    (rev "1.0.0")
+    (rev "1.0.3")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
   )
@@ -2874,7 +2874,6 @@
       )
     )
   )
-
 
   (junction (at 295.91 91.44) (diameter 0) (color 0 0 0 0)
     (uuid 04220738-30f3-4fea-98b4-205a1b909207)
