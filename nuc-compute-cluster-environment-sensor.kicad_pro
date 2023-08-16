@@ -419,10 +419,6 @@
         "name": "Power",
         "nets": [
           "+3V3",
-          "/FTDI_+1V8",
-          "/FTDI_VPHY",
-          "/FTDI_VPLL",
-          "/VBUS",
           "GND",
           "GNDREF"
         ],
