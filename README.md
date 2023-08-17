@@ -22,7 +22,7 @@ The design files were preapared in KiCad 6.x.
 
 * 128kB external FRAM 
 
-* FTDI FT4232H USB - JTAG/I2C/UART converter
+* FTDI FT232r USB- UART converter
 
 * SHT45 temperature + humidity sensor:
 	* Typ. relative humidity accuracy ±1% RH
@@ -44,14 +44,15 @@ The design files were preapared in KiCad 6.x.
 
 ## Signal mapping
 
-* FT4232H:
-	* Channel A: JTAG
-	* Channel B: I2C and FRAM_WP
-	* Channel C: UART
-	* Channel D: FTDI_USER_PB
-
-		![Visualization](img/sch-ftdi-interfaces.png)
+* FT232r:
+	* JTAG on pins: DTR, RTS, DSR, DCD, CTS, RI (bitbang mode)
 	
+	* UART on pins: TXD, RXD
+
+	* FTDI_USER_PB on CBUS0 (needs soldering R7)
+
+		![Visualization](img/sch-ft232-interfaces.png)
+
 * STM32G474CET6:
 	* UART on PA2/PA3 pins
 		
@@ -72,15 +73,18 @@ The design files were preapared in KiCad 6.x.
 * BME280: 0x76
 
 ## Test point assignment
-* TP1 - FTDI +1V8 output
-* TP2 - FTDI Suspend
-* TP3 - FTDI Power Enable
-* TP4 - FRAM Write Protect
-* TP5 - MCU Boot Select
-* TP6 - +3.3V power
-* TP7 - GND
-* TP8 - I2C SDA
-* TP9 - I2C SCL
+* TP1 - JTAG NRST
+* TP2 - JTAG TRST
+* TP3 - JTAG JTMS
+* TP4 - JTAG JTCK
+* TP5 - JTAG TDO
+* TP6 - JTAG TDI
+* TP7 - FRAM Write Protect
+* TP8 - MCU Boot Select
+* TP9 - +3.3V power
+* TP10 - GND
+* TP11 - I2C SDA
+* TP12 - I2C SCL 
 
 ## Repository structure
 
@@ -88,6 +92,7 @@ The main repository directory contains KiCad PCB project files, a LICENSE, and a
 The remaining files are stored in the following directories:
 
 * `img` - contains graphics for this README
+* `doc` - containts board diagram
 
 ## Board diagram
 
