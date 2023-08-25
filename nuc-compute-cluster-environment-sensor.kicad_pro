@@ -419,6 +419,7 @@
         "name": "Power",
         "nets": [
           "+3V3",
+          "+5V",
           "/VBUS",
           "GND",
           "GNDREF"
