@@ -1,7 +1,5 @@
 # Environment sensor board
 
-## :warning: Do not order PCB (gerber files not ready). Only sourcing BOM updated :warning:
-
 Copyright (c) 2023 [Antmicro](https://www.antmicro.com)
 
 ![Visualization](img/nuc-compute-cluster-environment-sensor_top_cycles_iso_black.png)
