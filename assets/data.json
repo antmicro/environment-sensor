@@ -1,5 +1,5 @@
 {
-    "id": "nuc-compute-cluster-environment-sensor",
+    "id": "environment-sensor",
     "componentIds": [
         "linx-bat-hld-012-smt-tr",
         "tdk-c1005x5r1a225k050bc",
