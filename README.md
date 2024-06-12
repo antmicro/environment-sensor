@@ -1,6 +1,6 @@
 # Environment sensor board
 
-Copyright (c) 2023 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2024 [Antmicro](https://www.antmicro.com)
 
 ![Visualization](img/nuc-compute-cluster-environment-sensor_top_cycles_iso_black.png)
 
@@ -10,7 +10,7 @@ This repository contains open hardware design files for an environment sensor bo
 
 These sensors are placed on separated island in PCB corner, which can be easily broken out from the main board, and connected to it via provided connectors with a cable.
 
-The design files were preapared in KiCad 6.x.
+The design files were preapared in KiCad 7.x.
 
 ## Key features
 
