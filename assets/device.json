@@ -1,0 +1,1691 @@
+{
+    "id": "environment-sensor",
+    "name": "Board",
+    "description": "",
+    "features": "",
+    "pipelineManagerId": "",
+    "externalReferenceUrls": "",
+    "relatedBoardIds": "",
+    "componentIds": [
+        "linx-technologies-bat-hld-012-smt-tr",
+        "murata-grm155r61a475meaad",
+        "murata-grm155r61h104ke14d",
+        "tdk-c1005x5r1a225k050bc",
+        "walsin-0402n160j500ct",
+        "murata-gcm1555c1h100ga16d",
+        "on-semiconductor-esd9x5-0st5g",
+        "texas-instruments-tpd2e009drtr",
+        "murata-blm18pg121sn1d",
+        "gct-usb4105-gf-a",
+        "jst-automotive-connectors-sm04b-srss-tb-lf-sn",
+        "kingbright-kp-1608zgc",
+        "bourns-cr0402-fx-1001glf",
+        "bourns-cr0402-fx-5101glf",
+        "panasonic-erj2ge0r00x",
+        "bourns-cr0402-fx-4700glf",
+        "bourns-cr0402-fx-1003glf",
+        "bourns-cr0402-fx-1000glf",
+        "ftdi-chip-ft232rq-reel",
+        "diodes-incorporated-ap7370-33sa-7",
+        "stmicroelectronics-stm32g474cet6",
+        "fujitsu-mb85rc1mtpnf-g-jnere1",
+        "sensirion-sht45-ad1b-r2",
+        "bosch-bme280",
+        "ecs-inc-international-ecs-327-12-5-34b-tr",
+        "abracon-abm3b-8-000mhz-10-1-u-t"
+    ],
+    "stackup": [],
+    "previews": [
+        {
+            "id": "top-photo",
+            "description": "Render in top photo view",
+            "fileName": "photoT.webp",
+            "fileUrl": "/previews/photoT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "photoT_photoB.webm",
+                    "fileUrl": "/previews/photoT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "photoT_leftB.webm",
+                    "fileUrl": "/previews/photoT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "photoT_orthoB.webm",
+                    "fileUrl": "/previews/photoT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "photoT_rightB.webm",
+                    "fileUrl": "/previews/photoT_rightB.webm"
+                },
+                "top-left": {
+                    "fileName": "photoT_leftT.webm",
+                    "fileUrl": "/previews/photoT_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "photoT_orthoT.webm",
+                    "fileUrl": "/previews/photoT_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "photoT_rightT.webm",
+                    "fileUrl": "/previews/photoT_rightT.webm"
+                }
+            },
+            "hotareas": []
+        },
+        {
+            "id": "top-left",
+            "description": "Render in top left view",
+            "fileName": "leftT.webp",
+            "fileUrl": "/previews/leftT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "leftT_photoB.webm",
+                    "fileUrl": "/previews/leftT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "leftT_leftB.webm",
+                    "fileUrl": "/previews/leftT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "leftT_orthoB.webm",
+                    "fileUrl": "/previews/leftT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "leftT_rightB.webm",
+                    "fileUrl": "/previews/leftT_rightB.webm"
+                },
+                "top-photo": {
+                    "fileName": "leftT_photoT.webm",
+                    "fileUrl": "/previews/leftT_photoT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "leftT_orthoT.webm",
+                    "fileUrl": "/previews/leftT_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "leftT_rightT.webm",
+                    "fileUrl": "/previews/leftT_rightT.webm"
+                }
+            },
+            "hotareas": []
+        },
+        {
+            "id": "top-ortho",
+            "description": "Render in top ortho view",
+            "fileName": "orthoT.webp",
+            "fileUrl": "/previews/orthoT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "orthoT_photoB.webm",
+                    "fileUrl": "/previews/orthoT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "orthoT_leftB.webm",
+                    "fileUrl": "/previews/orthoT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "orthoT_orthoB.webm",
+                    "fileUrl": "/previews/orthoT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "orthoT_rightB.webm",
+                    "fileUrl": "/previews/orthoT_rightB.webm"
+                },
+                "top-photo": {
+                    "fileName": "orthoT_photoT.webm",
+                    "fileUrl": "/previews/orthoT_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "orthoT_leftT.webm",
+                    "fileUrl": "/previews/orthoT_leftT.webm"
+                },
+                "top-right": {
+                    "fileName": "orthoT_rightT.webm",
+                    "fileUrl": "/previews/orthoT_rightT.webm"
+                }
+            },
+            "hotareas": [
+                {
+                    "reference": "U4",
+                    "proportionalOutlinePath": [
+                        [
+                            0.5283333333333333,
+                            0.36666666666666664
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.37166666666666665
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.37333333333333335
+                        ],
+                        [
+                            0.5183333333333333,
+                            0.37416666666666665
+                        ],
+                        [
+                            0.5108333333333334,
+                            0.37416666666666665
+                        ],
+                        [
+                            0.5108333333333334,
+                            0.38416666666666666
+                        ],
+                        [
+                            0.5216666666666666,
+                            0.38333333333333336
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.38416666666666666
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.39166666666666666
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.3933333333333333
+                        ],
+                        [
+                            0.5191666666666667,
+                            0.39416666666666667
+                        ],
+                        [
+                            0.5108333333333334,
+                            0.39416666666666667
+                        ],
+                        [
+                            0.5108333333333334,
+                            0.4041666666666667
+                        ],
+                        [
+                            0.5216666666666666,
+                            0.4033333333333333
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.4041666666666667
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.4116666666666667
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.41333333333333333
+                        ],
+                        [
+                            0.52,
+                            0.4141666666666667
+                        ],
+                        [
+                            0.5108333333333334,
+                            0.4141666666666667
+                        ],
+                        [
+                            0.5108333333333334,
+                            0.4241666666666667
+                        ],
+                        [
+                            0.5216666666666666,
+                            0.42333333333333334
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.42333333333333334
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.425
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.43166666666666664
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.43333333333333335
+                        ],
+                        [
+                            0.5216666666666666,
+                            0.43416666666666665
+                        ],
+                        [
+                            0.5108333333333334,
+                            0.43416666666666665
+                        ],
+                        [
+                            0.5108333333333334,
+                            0.44333333333333336
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.44333333333333336
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.445
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.45
+                        ],
+                        [
+                            0.5925,
+                            0.45
+                        ],
+                        [
+                            0.5925,
+                            0.445
+                        ],
+                        [
+                            0.5941666666666666,
+                            0.44333333333333336
+                        ],
+                        [
+                            0.6083333333333333,
+                            0.44333333333333336
+                        ],
+                        [
+                            0.6083333333333333,
+                            0.43416666666666665
+                        ],
+                        [
+                            0.5983333333333334,
+                            0.43416666666666665
+                        ],
+                        [
+                            0.5941666666666666,
+                            0.43333333333333335
+                        ],
+                        [
+                            0.5925,
+                            0.43166666666666664
+                        ],
+                        [
+                            0.5925,
+                            0.425
+                        ],
+                        [
+                            0.5941666666666666,
+                            0.42333333333333334
+                        ],
+                        [
+                            0.5991666666666666,
+                            0.42333333333333334
+                        ],
+                        [
+                            0.6083333333333333,
+                            0.4241666666666667
+                        ],
+                        [
+                            0.6083333333333333,
+                            0.4141666666666667
+                        ],
+                        [
+                            0.6,
+                            0.4141666666666667
+                        ],
+                        [
+                            0.5941666666666666,
+                            0.41333333333333333
+                        ],
+                        [
+                            0.5925,
+                            0.4116666666666667
+                        ],
+                        [
+                            0.5933333333333334,
+                            0.4033333333333333
+                        ],
+                        [
+                            0.5975,
+                            0.4033333333333333
+                        ],
+                        [
+                            0.6083333333333333,
+                            0.4041666666666667
+                        ],
+                        [
+                            0.6083333333333333,
+                            0.39416666666666667
+                        ],
+                        [
+                            0.6008333333333333,
+                            0.39416666666666667
+                        ],
+                        [
+                            0.5941666666666666,
+                            0.3933333333333333
+                        ],
+                        [
+                            0.5925,
+                            0.39166666666666666
+                        ],
+                        [
+                            0.5933333333333334,
+                            0.38333333333333336
+                        ],
+                        [
+                            0.5975,
+                            0.38333333333333336
+                        ],
+                        [
+                            0.6083333333333333,
+                            0.38416666666666666
+                        ],
+                        [
+                            0.6083333333333333,
+                            0.37416666666666665
+                        ],
+                        [
+                            0.6016666666666667,
+                            0.37416666666666665
+                        ],
+                        [
+                            0.5941666666666666,
+                            0.37333333333333335
+                        ],
+                        [
+                            0.5925,
+                            0.37166666666666665
+                        ],
+                        [
+                            0.5925,
+                            0.36666666666666664
+                        ]
+                    ],
+                    "componentId": "fujitsu-mb85rc1mtpnf-g-jnere1"
+                },
+                {
+                    "reference": "U5",
+                    "proportionalOutlinePath": [
+                        [
+                            0.8633333333333333,
+                            0.37666666666666665
+                        ],
+                        [
+                            0.8633333333333333,
+                            0.4
+                        ],
+                        [
+                            0.8875,
+                            0.4
+                        ],
+                        [
+                            0.8891666666666667,
+                            0.39916666666666667
+                        ],
+                        [
+                            0.8891666666666667,
+                            0.37666666666666665
+                        ]
+                    ],
+                    "componentId": "sensirion-sht45-ad1b-r2"
+                },
+                {
+                    "reference": "U2",
+                    "proportionalOutlinePath": [
+                        [
+                            0.30833333333333335,
+                            0.5841666666666666
+                        ],
+                        [
+                            0.3075,
+                            0.6025
+                        ],
+                        [
+                            0.30083333333333334,
+                            0.6025
+                        ],
+                        [
+                            0.30083333333333334,
+                            0.6091666666666666
+                        ],
+                        [
+                            0.30666666666666664,
+                            0.6091666666666666
+                        ],
+                        [
+                            0.30833333333333335,
+                            0.6108333333333333
+                        ],
+                        [
+                            0.30833333333333335,
+                            0.6291666666666667
+                        ],
+                        [
+                            0.32916666666666666,
+                            0.6283333333333333
+                        ],
+                        [
+                            0.32916666666666666,
+                            0.6258333333333334
+                        ],
+                        [
+                            0.3308333333333333,
+                            0.6241666666666666
+                        ],
+                        [
+                            0.33916666666666667,
+                            0.6241666666666666
+                        ],
+                        [
+                            0.33916666666666667,
+                            0.6175
+                        ],
+                        [
+                            0.3308333333333333,
+                            0.6183333333333333
+                        ],
+                        [
+                            0.32916666666666666,
+                            0.6166666666666667
+                        ],
+                        [
+                            0.32916666666666666,
+                            0.5958333333333333
+                        ],
+                        [
+                            0.3308333333333333,
+                            0.5941666666666666
+                        ],
+                        [
+                            0.33916666666666667,
+                            0.5941666666666666
+                        ],
+                        [
+                            0.33916666666666667,
+                            0.5875
+                        ],
+                        [
+                            0.3308333333333333,
+                            0.5883333333333334
+                        ],
+                        [
+                            0.32916666666666666,
+                            0.5866666666666667
+                        ],
+                        [
+                            0.32916666666666666,
+                            0.5833333333333334
+                        ]
+                    ],
+                    "componentId": "diodes-incorporated-ap7370-33sa-7"
+                },
+                {
+                    "reference": "J2",
+                    "proportionalOutlinePath": [
+                        [
+                            0.8316666666666667,
+                            0.49
+                        ],
+                        [
+                            0.83,
+                            0.49083333333333334
+                        ],
+                        [
+                            0.8291666666666667,
+                            0.5125
+                        ],
+                        [
+                            0.8191666666666667,
+                            0.5125
+                        ],
+                        [
+                            0.8191666666666667,
+                            0.5183333333333333
+                        ],
+                        [
+                            0.83,
+                            0.5191666666666667
+                        ],
+                        [
+                            0.8291666666666667,
+                            0.5283333333333333
+                        ],
+                        [
+                            0.8191666666666667,
+                            0.5283333333333333
+                        ],
+                        [
+                            0.8191666666666667,
+                            0.5341666666666667
+                        ],
+                        [
+                            0.83,
+                            0.535
+                        ],
+                        [
+                            0.8291666666666667,
+                            0.5441666666666667
+                        ],
+                        [
+                            0.8191666666666667,
+                            0.5441666666666667
+                        ],
+                        [
+                            0.8191666666666667,
+                            0.55
+                        ],
+                        [
+                            0.83,
+                            0.5508333333333333
+                        ],
+                        [
+                            0.8291666666666667,
+                            0.56
+                        ],
+                        [
+                            0.8191666666666667,
+                            0.56
+                        ],
+                        [
+                            0.8191666666666667,
+                            0.5658333333333333
+                        ],
+                        [
+                            0.83,
+                            0.5666666666666667
+                        ],
+                        [
+                            0.83,
+                            0.5875
+                        ],
+                        [
+                            0.8316666666666667,
+                            0.5883333333333334
+                        ],
+                        [
+                            0.835,
+                            0.5891666666666666
+                        ],
+                        [
+                            0.8475,
+                            0.59
+                        ],
+                        [
+                            0.9125,
+                            0.59
+                        ],
+                        [
+                            0.9125,
+                            0.5875
+                        ],
+                        [
+                            0.9133333333333333,
+                            0.49666666666666665
+                        ],
+                        [
+                            0.9125,
+                            0.49
+                        ]
+                    ],
+                    "componentId": "jst-automotive-connectors-sm04b-srss-tb-lf-sn"
+                },
+                {
+                    "reference": "U3",
+                    "proportionalOutlinePath": [
+                        [
+                            0.5733333333333334,
+                            0.5091666666666667
+                        ],
+                        [
+                            0.5733333333333334,
+                            0.5233333333333333
+                        ],
+                        [
+                            0.5716666666666667,
+                            0.525
+                        ],
+                        [
+                            0.5691666666666667,
+                            0.525
+                        ],
+                        [
+                            0.5633333333333334,
+                            0.5308333333333334
+                        ],
+                        [
+                            0.5625,
+                            0.535
+                        ],
+                        [
+                            0.5475,
+                            0.535
+                        ],
+                        [
+                            0.5475,
+                            0.6275
+                        ],
+                        [
+                            0.5541666666666667,
+                            0.6275
+                        ],
+                        [
+                            0.5575,
+                            0.6283333333333333
+                        ],
+                        [
+                            0.5616666666666666,
+                            0.6291666666666667
+                        ],
+                        [
+                            0.5633333333333334,
+                            0.6308333333333334
+                        ],
+                        [
+                            0.5641666666666667,
+                            0.64
+                        ],
+                        [
+                            0.5716666666666667,
+                            0.64
+                        ],
+                        [
+                            0.5733333333333334,
+                            0.6416666666666667
+                        ],
+                        [
+                            0.5733333333333334,
+                            0.6533333333333333
+                        ],
+                        [
+                            0.6658333333333334,
+                            0.6533333333333333
+                        ],
+                        [
+                            0.6658333333333334,
+                            0.6466666666666666
+                        ],
+                        [
+                            0.6666666666666666,
+                            0.6441666666666667
+                        ],
+                        [
+                            0.6675,
+                            0.6416666666666667
+                        ],
+                        [
+                            0.6691666666666667,
+                            0.64
+                        ],
+                        [
+                            0.6783333333333333,
+                            0.64
+                        ],
+                        [
+                            0.6783333333333333,
+                            0.6308333333333334
+                        ],
+                        [
+                            0.68,
+                            0.6291666666666667
+                        ],
+                        [
+                            0.6833333333333333,
+                            0.6283333333333333
+                        ],
+                        [
+                            0.6858333333333333,
+                            0.6275
+                        ],
+                        [
+                            0.6916666666666667,
+                            0.6275
+                        ],
+                        [
+                            0.6916666666666667,
+                            0.535
+                        ],
+                        [
+                            0.6783333333333333,
+                            0.5341666666666667
+                        ],
+                        [
+                            0.6775,
+                            0.525
+                        ],
+                        [
+                            0.6691666666666667,
+                            0.525
+                        ],
+                        [
+                            0.6675,
+                            0.5233333333333333
+                        ],
+                        [
+                            0.6666666666666666,
+                            0.52
+                        ],
+                        [
+                            0.6658333333333334,
+                            0.5166666666666667
+                        ],
+                        [
+                            0.6658333333333334,
+                            0.5091666666666667
+                        ]
+                    ],
+                    "componentId": "stmicroelectronics-stm32g474cet6"
+                },
+                {
+                    "reference": "U6",
+                    "proportionalOutlinePath": [
+                        [
+                            0.85,
+                            0.31083333333333335
+                        ],
+                        [
+                            0.85,
+                            0.35
+                        ],
+                        [
+                            0.8891666666666667,
+                            0.35
+                        ],
+                        [
+                            0.8891666666666667,
+                            0.3433333333333333
+                        ],
+                        [
+                            0.89,
+                            0.315
+                        ],
+                        [
+                            0.8891666666666667,
+                            0.31083333333333335
+                        ]
+                    ],
+                    "componentId": "bosch-bme280"
+                },
+                {
+                    "reference": "J1",
+                    "proportionalOutlinePath": [
+                        [
+                            0.18666666666666668,
+                            0.4216666666666667
+                        ],
+                        [
+                            0.18583333333333332,
+                            0.4266666666666667
+                        ],
+                        [
+                            0.09083333333333334,
+                            0.4266666666666667
+                        ],
+                        [
+                            0.08916666666666667,
+                            0.42833333333333334
+                        ],
+                        [
+                            0.08916666666666667,
+                            0.43
+                        ],
+                        [
+                            0.0875,
+                            0.43416666666666665
+                        ],
+                        [
+                            0.08666666666666667,
+                            0.43833333333333335
+                        ],
+                        [
+                            0.08666666666666667,
+                            0.5608333333333333
+                        ],
+                        [
+                            0.0875,
+                            0.565
+                        ],
+                        [
+                            0.08833333333333333,
+                            0.5683333333333334
+                        ],
+                        [
+                            0.09,
+                            0.5716666666666667
+                        ],
+                        [
+                            0.18666666666666668,
+                            0.5733333333333334
+                        ],
+                        [
+                            0.18666666666666668,
+                            0.5775
+                        ],
+                        [
+                            0.21333333333333335,
+                            0.5775
+                        ],
+                        [
+                            0.21666666666666667,
+                            0.5766666666666667
+                        ],
+                        [
+                            0.21833333333333332,
+                            0.5758333333333333
+                        ],
+                        [
+                            0.22083333333333333,
+                            0.5733333333333334
+                        ],
+                        [
+                            0.22166666666666668,
+                            0.5716666666666667
+                        ],
+                        [
+                            0.22083333333333333,
+                            0.5608333333333333
+                        ],
+                        [
+                            0.22166666666666668,
+                            0.555
+                        ],
+                        [
+                            0.22583333333333333,
+                            0.555
+                        ],
+                        [
+                            0.22583333333333333,
+                            0.44416666666666665
+                        ],
+                        [
+                            0.22083333333333333,
+                            0.44333333333333336
+                        ],
+                        [
+                            0.22083333333333333,
+                            0.43833333333333335
+                        ],
+                        [
+                            0.22166666666666668,
+                            0.4275
+                        ],
+                        [
+                            0.22083333333333333,
+                            0.42583333333333334
+                        ],
+                        [
+                            0.21833333333333332,
+                            0.42333333333333334
+                        ],
+                        [
+                            0.21666666666666667,
+                            0.4225
+                        ],
+                        [
+                            0.21333333333333335,
+                            0.4216666666666667
+                        ]
+                    ],
+                    "componentId": "gct-usb4105-gf-a"
+                },
+                {
+                    "reference": "U1",
+                    "proportionalOutlinePath": [
+                        [
+                            0.3325,
+                            0.3375
+                        ],
+                        [
+                            0.3325,
+                            0.4166666666666667
+                        ],
+                        [
+                            0.33416666666666667,
+                            0.4175
+                        ],
+                        [
+                            0.4116666666666667,
+                            0.4175
+                        ],
+                        [
+                            0.41083333333333333,
+                            0.3375
+                        ]
+                    ],
+                    "componentId": "ftdi-chip-ft232rq-reel"
+                }
+            ]
+        },
+        {
+            "id": "top-right",
+            "description": "Render in top right view",
+            "fileName": "rightT.webp",
+            "fileUrl": "/previews/rightT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "rightT_photoB.webm",
+                    "fileUrl": "/previews/rightT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "rightT_leftB.webm",
+                    "fileUrl": "/previews/rightT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "rightT_orthoB.webm",
+                    "fileUrl": "/previews/rightT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "rightT_rightB.webm",
+                    "fileUrl": "/previews/rightT_rightB.webm"
+                },
+                "top-photo": {
+                    "fileName": "rightT_photoT.webm",
+                    "fileUrl": "/previews/rightT_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "rightT_leftT.webm",
+                    "fileUrl": "/previews/rightT_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "rightT_orthoT.webm",
+                    "fileUrl": "/previews/rightT_orthoT.webm"
+                }
+            },
+            "hotareas": []
+        },
+        {
+            "id": "bottom-photo",
+            "description": "Render in bottom photo view",
+            "fileName": "photoB.webp",
+            "fileUrl": "/previews/photoB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "photoB_photoT.webm",
+                    "fileUrl": "/previews/photoB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "photoB_leftT.webm",
+                    "fileUrl": "/previews/photoB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "photoB_orthoT.webm",
+                    "fileUrl": "/previews/photoB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "photoB_rightT.webm",
+                    "fileUrl": "/previews/photoB_rightT.webm"
+                },
+                "bottom-left": {
+                    "fileName": "photoB_leftB.webm",
+                    "fileUrl": "/previews/photoB_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "photoB_orthoB.webm",
+                    "fileUrl": "/previews/photoB_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "photoB_rightB.webm",
+                    "fileUrl": "/previews/photoB_rightB.webm"
+                }
+            },
+            "hotareas": []
+        },
+        {
+            "id": "bottom-left",
+            "description": "Render in bottom left view",
+            "fileName": "leftB.webp",
+            "fileUrl": "/previews/leftB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "leftB_photoT.webm",
+                    "fileUrl": "/previews/leftB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "leftB_leftT.webm",
+                    "fileUrl": "/previews/leftB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "leftB_orthoT.webm",
+                    "fileUrl": "/previews/leftB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "leftB_rightT.webm",
+                    "fileUrl": "/previews/leftB_rightT.webm"
+                },
+                "bottom-photo": {
+                    "fileName": "leftB_photoB.webm",
+                    "fileUrl": "/previews/leftB_photoB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "leftB_orthoB.webm",
+                    "fileUrl": "/previews/leftB_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "leftB_rightB.webm",
+                    "fileUrl": "/previews/leftB_rightB.webm"
+                }
+            },
+            "hotareas": []
+        },
+        {
+            "id": "bottom-ortho",
+            "description": "Render in bottom ortho view",
+            "fileName": "orthoB.webp",
+            "fileUrl": "/previews/orthoB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "orthoB_photoT.webm",
+                    "fileUrl": "/previews/orthoB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "orthoB_leftT.webm",
+                    "fileUrl": "/previews/orthoB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "orthoB_orthoT.webm",
+                    "fileUrl": "/previews/orthoB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "orthoB_rightT.webm",
+                    "fileUrl": "/previews/orthoB_rightT.webm"
+                },
+                "bottom-photo": {
+                    "fileName": "orthoB_photoB.webm",
+                    "fileUrl": "/previews/orthoB_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "orthoB_leftB.webm",
+                    "fileUrl": "/previews/orthoB_leftB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "orthoB_rightB.webm",
+                    "fileUrl": "/previews/orthoB_rightB.webm"
+                }
+            },
+            "hotareas": [
+                {
+                    "reference": "J3",
+                    "proportionalOutlinePath": [
+                        [
+                            0.09,
+                            0.2941666666666667
+                        ],
+                        [
+                            0.09,
+                            0.2975
+                        ],
+                        [
+                            0.08916666666666667,
+                            0.3933333333333333
+                        ],
+                        [
+                            0.09,
+                            0.3975
+                        ],
+                        [
+                            0.09166666666666666,
+                            0.3983333333333333
+                        ],
+                        [
+                            0.095,
+                            0.39916666666666667
+                        ],
+                        [
+                            0.10083333333333333,
+                            0.4
+                        ],
+                        [
+                            0.11083333333333334,
+                            0.4008333333333333
+                        ],
+                        [
+                            0.11833333333333333,
+                            0.4
+                        ],
+                        [
+                            0.12083333333333333,
+                            0.4
+                        ],
+                        [
+                            0.17416666666666666,
+                            0.4008333333333333
+                        ],
+                        [
+                            0.175,
+                            0.37833333333333335
+                        ],
+                        [
+                            0.18583333333333332,
+                            0.37833333333333335
+                        ],
+                        [
+                            0.18583333333333332,
+                            0.3725
+                        ],
+                        [
+                            0.17416666666666666,
+                            0.37166666666666665
+                        ],
+                        [
+                            0.175,
+                            0.3625
+                        ],
+                        [
+                            0.18583333333333332,
+                            0.3625
+                        ],
+                        [
+                            0.18583333333333332,
+                            0.35583333333333333
+                        ],
+                        [
+                            0.17416666666666666,
+                            0.355
+                        ],
+                        [
+                            0.175,
+                            0.3458333333333333
+                        ],
+                        [
+                            0.18583333333333332,
+                            0.3458333333333333
+                        ],
+                        [
+                            0.18583333333333332,
+                            0.34
+                        ],
+                        [
+                            0.1775,
+                            0.34
+                        ],
+                        [
+                            0.17416666666666666,
+                            0.3383333333333333
+                        ],
+                        [
+                            0.175,
+                            0.33
+                        ],
+                        [
+                            0.18583333333333332,
+                            0.32916666666666666
+                        ],
+                        [
+                            0.18583333333333332,
+                            0.3233333333333333
+                        ],
+                        [
+                            0.17416666666666666,
+                            0.3225
+                        ],
+                        [
+                            0.17333333333333334,
+                            0.3
+                        ],
+                        [
+                            0.16833333333333333,
+                            0.2975
+                        ],
+                        [
+                            0.15916666666666668,
+                            0.2975
+                        ],
+                        [
+                            0.1575,
+                            0.29583333333333334
+                        ],
+                        [
+                            0.15583333333333332,
+                            0.295
+                        ],
+                        [
+                            0.14083333333333334,
+                            0.2941666666666667
+                        ]
+                    ],
+                    "componentId": "jst-automotive-connectors-sm04b-srss-tb-lf-sn"
+                },
+                {
+                    "reference": "BAT1",
+                    "proportionalOutlinePath": [
+                        [
+                            0.715,
+                            0.5241666666666667
+                        ],
+                        [
+                            0.7125,
+                            0.5275
+                        ],
+                        [
+                            0.565,
+                            0.5275
+                        ],
+                        [
+                            0.5633333333333334,
+                            0.5266666666666666
+                        ],
+                        [
+                            0.5616666666666666,
+                            0.5241666666666667
+                        ],
+                        [
+                            0.5558333333333333,
+                            0.5241666666666667
+                        ],
+                        [
+                            0.5525,
+                            0.5266666666666666
+                        ],
+                        [
+                            0.5483333333333333,
+                            0.53
+                        ],
+                        [
+                            0.5425,
+                            0.535
+                        ],
+                        [
+                            0.5366666666666666,
+                            0.54
+                        ],
+                        [
+                            0.5308333333333334,
+                            0.545
+                        ],
+                        [
+                            0.5291666666666667,
+                            0.5466666666666666
+                        ],
+                        [
+                            0.5283333333333333,
+                            0.5525
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.5525
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.555
+                        ],
+                        [
+                            0.525,
+                            0.5566666666666666
+                        ],
+                        [
+                            0.5116666666666667,
+                            0.5566666666666666
+                        ],
+                        [
+                            0.5125,
+                            0.5925
+                        ],
+                        [
+                            0.525,
+                            0.5925
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.5941666666666666
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.6041666666666666
+                        ],
+                        [
+                            0.525,
+                            0.6058333333333333
+                        ],
+                        [
+                            0.5116666666666667,
+                            0.6058333333333333
+                        ],
+                        [
+                            0.5116666666666667,
+                            0.6416666666666667
+                        ],
+                        [
+                            0.525,
+                            0.6416666666666667
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.6433333333333333
+                        ],
+                        [
+                            0.5266666666666666,
+                            0.65
+                        ],
+                        [
+                            0.5275,
+                            0.6525
+                        ],
+                        [
+                            0.5291666666666667,
+                            0.6533333333333333
+                        ],
+                        [
+                            0.5316666666666666,
+                            0.6533333333333333
+                        ],
+                        [
+                            0.5491666666666667,
+                            0.6708333333333333
+                        ],
+                        [
+                            0.5525,
+                            0.6733333333333333
+                        ],
+                        [
+                            0.5558333333333333,
+                            0.6758333333333333
+                        ],
+                        [
+                            0.5591666666666667,
+                            0.6783333333333333
+                        ],
+                        [
+                            0.5658333333333333,
+                            0.6816666666666666
+                        ],
+                        [
+                            0.5683333333333334,
+                            0.6825
+                        ],
+                        [
+                            0.5708333333333333,
+                            0.6833333333333333
+                        ],
+                        [
+                            0.5733333333333334,
+                            0.6841666666666667
+                        ],
+                        [
+                            0.5758333333333333,
+                            0.685
+                        ],
+                        [
+                            0.5825,
+                            0.6858333333333333
+                        ],
+                        [
+                            0.5991666666666666,
+                            0.6858333333333333
+                        ],
+                        [
+                            0.6025,
+                            0.685
+                        ],
+                        [
+                            0.6058333333333333,
+                            0.6841666666666667
+                        ],
+                        [
+                            0.6091666666666666,
+                            0.6833333333333333
+                        ],
+                        [
+                            0.6116666666666667,
+                            0.6825
+                        ],
+                        [
+                            0.6133333333333333,
+                            0.6816666666666666
+                        ],
+                        [
+                            0.615,
+                            0.68
+                        ],
+                        [
+                            0.6183333333333333,
+                            0.6791666666666667
+                        ],
+                        [
+                            0.6208333333333333,
+                            0.6783333333333333
+                        ],
+                        [
+                            0.6225,
+                            0.6783333333333333
+                        ],
+                        [
+                            0.625,
+                            0.6775
+                        ],
+                        [
+                            0.6291666666666667,
+                            0.675
+                        ],
+                        [
+                            0.6375,
+                            0.6741666666666667
+                        ],
+                        [
+                            0.6491666666666667,
+                            0.6741666666666667
+                        ],
+                        [
+                            0.6558333333333334,
+                            0.675
+                        ],
+                        [
+                            0.6583333333333333,
+                            0.6758333333333333
+                        ],
+                        [
+                            0.6608333333333334,
+                            0.6766666666666666
+                        ],
+                        [
+                            0.6633333333333333,
+                            0.6783333333333333
+                        ],
+                        [
+                            0.6658333333333334,
+                            0.6783333333333333
+                        ],
+                        [
+                            0.6675,
+                            0.68
+                        ],
+                        [
+                            0.67,
+                            0.68
+                        ],
+                        [
+                            0.6716666666666666,
+                            0.6816666666666666
+                        ],
+                        [
+                            0.6741666666666667,
+                            0.6825
+                        ],
+                        [
+                            0.6758333333333333,
+                            0.6825
+                        ],
+                        [
+                            0.6783333333333333,
+                            0.6841666666666667
+                        ],
+                        [
+                            0.6825,
+                            0.6841666666666667
+                        ],
+                        [
+                            0.6858333333333333,
+                            0.6858333333333333
+                        ],
+                        [
+                            0.7016666666666667,
+                            0.6858333333333333
+                        ],
+                        [
+                            0.71,
+                            0.685
+                        ],
+                        [
+                            0.7125,
+                            0.6841666666666667
+                        ],
+                        [
+                            0.715,
+                            0.6825
+                        ],
+                        [
+                            0.7166666666666667,
+                            0.6825
+                        ],
+                        [
+                            0.7191666666666666,
+                            0.6816666666666666
+                        ],
+                        [
+                            0.7216666666666667,
+                            0.68
+                        ],
+                        [
+                            0.7233333333333334,
+                            0.68
+                        ],
+                        [
+                            0.7266666666666667,
+                            0.6783333333333333
+                        ],
+                        [
+                            0.73,
+                            0.675
+                        ],
+                        [
+                            0.7333333333333333,
+                            0.6733333333333333
+                        ],
+                        [
+                            0.7425,
+                            0.665
+                        ],
+                        [
+                            0.7541666666666667,
+                            0.6525
+                        ],
+                        [
+                            0.7575,
+                            0.6516666666666666
+                        ],
+                        [
+                            0.7583333333333333,
+                            0.6416666666666667
+                        ],
+                        [
+                            0.7625,
+                            0.6416666666666667
+                        ],
+                        [
+                            0.7625,
+                            0.6058333333333333
+                        ],
+                        [
+                            0.7575,
+                            0.605
+                        ],
+                        [
+                            0.7583333333333333,
+                            0.5925
+                        ],
+                        [
+                            0.7625,
+                            0.5916666666666667
+                        ],
+                        [
+                            0.7625,
+                            0.5566666666666666
+                        ],
+                        [
+                            0.7583333333333333,
+                            0.5566666666666666
+                        ],
+                        [
+                            0.7566666666666667,
+                            0.555
+                        ],
+                        [
+                            0.7566666666666667,
+                            0.5533333333333333
+                        ],
+                        [
+                            0.755,
+                            0.5525
+                        ],
+                        [
+                            0.755,
+                            0.5491666666666667
+                        ],
+                        [
+                            0.7491666666666666,
+                            0.5433333333333333
+                        ],
+                        [
+                            0.7441666666666666,
+                            0.5391666666666667
+                        ],
+                        [
+                            0.7383333333333333,
+                            0.5341666666666667
+                        ],
+                        [
+                            0.7333333333333333,
+                            0.5308333333333334
+                        ],
+                        [
+                            0.7283333333333334,
+                            0.5258333333333334
+                        ],
+                        [
+                            0.7258333333333333,
+                            0.5241666666666667
+                        ],
+                        [
+                            0.7208333333333333,
+                            0.5233333333333333
+                        ]
+                    ],
+                    "componentId": "linx-technologies-bat-hld-012-smt-tr"
+                }
+            ]
+        },
+        {
+            "id": "bottom-right",
+            "description": "Render in bottom right view",
+            "fileName": "rightB.webp",
+            "fileUrl": "/previews/rightB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "rightB_photoT.webm",
+                    "fileUrl": "/previews/rightB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "rightB_leftT.webm",
+                    "fileUrl": "/previews/rightB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "rightB_orthoT.webm",
+                    "fileUrl": "/previews/rightB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "rightB_rightT.webm",
+                    "fileUrl": "/previews/rightB_rightT.webm"
+                },
+                "bottom-photo": {
+                    "fileName": "rightB_photoB.webm",
+                    "fileUrl": "/previews/rightB_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "rightB_leftB.webm",
+                    "fileUrl": "/previews/rightB_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "rightB_orthoB.webm",
+                    "fileUrl": "/previews/rightB_orthoB.webm"
+                }
+            },
+            "hotareas": []
+        }
+    ],
+    "si_simulation": null
+}
