@@ -24,8 +24,8 @@
         "stmicroelectronics-stm32g474cet6",
         "fujitsu-mb85rc1mtpnf-g-jnere1",
         "sensirion-sht45-ad1b-r2",
-        "bosch-bme280",
-        "ecs-inc-international-ecs-327-12-5-34b-tr",
+        "bosch-sensortec-bme280",
+        "ecs-inc-ecs-327-12-5-34b-tr",
         "abracon-abm3b-8-000mhz-10-1-u-t"
     ],
     "stackup": {
